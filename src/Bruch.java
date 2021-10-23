@@ -29,12 +29,13 @@ public class Bruch {
     public double toDecimal() {
         // TODO: Die Methode soll den Dezimalwert zum Bruch retournieren
         // Achtung: Ganzzahldivision!
-        return 0;
+        double Decimal = getNumerator()/getDenominator();
+        return Decimal;
     }
 
     public String print() {
-        // TODO: Die Methode soll den Bruch als Text retournieren z.B.: "5 / 7"
-        return "";
+        String Bruch = getDenominator() + "/" + getNumerator();
+        return Bruch;
     }
 
     public Bruch multiplicate(Bruch b2) {
