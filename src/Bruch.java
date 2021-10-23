@@ -4,6 +4,18 @@ public class Bruch {
 
     public Bruch(int numerator, int denominator) {
         // TODO: Setzen Sie die Attribute entsprechend
+        setNumerator(numerator);
+        setDenominator(denominator);
+    }
+
+    public void setNumerator(int num)
+    {
+      numerator = num;
+    }
+
+    public void setDenominator(int den)
+    {
+        denominator = den;
     }
 
     public int getNumerator() {
