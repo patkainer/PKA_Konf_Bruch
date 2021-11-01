@@ -46,14 +46,19 @@ public class Bruch {
         *   => Selbige auch für denominator
         *  Retournieren Sie ihre neue Bruch-Variable
         * */
+        Bruch mulBruch = new Bruch(0,0);
+        mulBruch.setNumerator(b2.getNumerator()^2);
+        mulBruch.setDenominator(b2.getDenominator());
 
 
-        return null;
+        return mulBruch;
     }
 
     public Bruch multiplicate(Bruch b2,  Bruch b3) {
         // TODO: Multiplizieren Sie den eigenen Bruch mit b2 und b3
-
-        return null;
+        Bruch erg = new Bruch(0,0);
+        erg.setDenominator(b2.getDenominator()*b3.getDenominator());
+        erg.setNumerator(b2.getNumerator()* b3.getNumerator();
+        return erg;
     }
 }
