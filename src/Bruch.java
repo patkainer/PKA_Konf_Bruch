@@ -58,7 +58,7 @@ public class Bruch {
         // TODO: Multiplizieren Sie den eigenen Bruch mit b2 und b3
         Bruch erg = new Bruch(0,0);
         erg.setDenominator(b2.getDenominator()*b3.getDenominator());
-        erg.setNumerator(b2.getNumerator()* b3.getNumerator();
+        erg.setNumerator(b2.getNumerator()* b3.getNumerator());
         return erg;
     }
 }
